@@ -9,8 +9,8 @@ class Simulacion:
     def llegar_nuevo_cliente(self):
         return random() <= 0.2
 
-    def imprimir_estadistica(self):
-        
+    def imprimir_estadistica(self, pozo):
+        self.pozo = pozo      
         print('Dinero ganado (o perdido) por los clientes: ')
         print('Dinero ganado (o perdido) por los clientes por personalidad: ')
         print('Tiempo promedio de estadia en el casino')
